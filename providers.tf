@@ -9,7 +9,6 @@ terraform {
 }
 
 provider "aws" {
-    description = "Select AWS Region"
     region = var.my-aws-region
     #profile =
 }
