@@ -11,7 +11,7 @@ ml
 
 
 # Step 0: Set Hostname
-sudo hostnamectl set-hostname Jenkins
+sudo hostnamectl set-hostname SonarQube
 
 # Step 1: Create Sonar User
 sudo useradd sonar
@@ -37,4 +37,4 @@ sudo chown -R sonar:sonar /opt/sonarqube
 sudo chmod -R 775 /opt/sonarqube
 
 # Step 6: Start SonarQube
-sh /opt/sonarqube/bin/linux*/sonar.sh start
+sudo sh /opt/sonarqube/bin/linux-x86-64/sonar.sh start
